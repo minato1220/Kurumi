@@ -1,7 +1,7 @@
 <div align="center">
-<a href="https://github.com/iamherok/Cara_public"><img src="https://i.ibb.co/ngRn4Cz/tumblr-66e82dde59820896965b5027b92c86e6-5ee4cc46-540.jpg" alt="dexxy" border="0"></a>
+<a href="https://github.com/iamherok/Cara_public"><img src="https://cdn.akamai.steamstatic.com/steam/apps/1944240/capsule_616x353.jpg?t=1649862260" alt="dexxy" border="0"></a>
 
-# **Dexxy : A WhatsApp BOT WITH RICH NSFW FEATURES MADE BY <a href="https://github.com/ShineiIchijo/Chitoge">ALLYGATOR</er></a></h1>**
+# **Kurumi : A WhatsApp BOT WITH RICH NSFW FEATURES MADE BY 𝐦𝐢𝐧𝐚𝐭𝐨 𝐯𝐢 𝐛𝐫𝐢𝐭𝐚𝐧𝐧𝐢𝐚</er></a></h1>**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/shineiichijo/chitoge/badge)](https://www.codefactor.io/repository/github/shineiichijo/chitoge)
 
@@ -9,7 +9,7 @@
 
 > A Fully Modular and Efficient Bot <br>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/DexterGlitch/Dexxy)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/minato1220/Kurumi)
 
 </div><br/>
 <br/>
