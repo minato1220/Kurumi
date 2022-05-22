@@ -35,30 +35,30 @@ export default class Command extends BaseCommand {
         } catch (err) {
             M.reply(`Profile Picture not Accessible of ${username}`)
             pfp =
-                'https://www.linkpicture.com/q/OIP-depositphotos-bgremover.png'
+                'https://cdn.akamai.steamstatic.com/steam/apps/1944240/capsule_616x353.jpg?t=1649862260'
         }
         const exp = (await this.client.getUser(user)).Xp
         let role: string;
 				if (exp < 500) {
-					role = "🌸 Citizen";
+					role = "😢 Ultra noob";
 				} else if (exp < 1000) {
-					role = "🔎 Cleric";
+					role = "😞 Kinda noob";
 				} else if (exp < 2000) {
-					role = "🔮 Wizard";
+					role = "☹ Noob";
 				} else if (exp < 5000) {
-					role = "♦️ Mage";
+					role = "🙂 Kinda Pro";
 				} else if (exp < 10000) {
-					role = "🎯 Noble";
+					role = "😀 Hmm pro";
 				} else if (exp < 25000) {
-					role = "✨ Elite";
+					role = "😁 Pro";
 				} else if (exp < 50000) {
-					role = "🔶️ Ace";
+					role = "🌸 LEGAND";
 				} else if (exp < 75000) {
 					role = "🌀 Hero";
 				} else if (exp < 100000) {
-					role = "💎 Supreme";
+					role = "💎 Supreme Leader";
 				} else {
-					role = "❄️ Mystic";
+					role = "👑 KAMI SAMA";
 				}
 
 				let level: number;
