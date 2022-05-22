@@ -21,11 +21,11 @@ export default class Command extends BaseCommand {
         if (percentage < 25) {
             sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\tThere's still time to reconsider your choices`
         } else if (percentage < 50) {
-            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t Good enough, I guess! 💫`
+            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\tOne sided love bro! 😔`
         } else if (percentage < 75) {
-            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t\tStay together and you'll find a way ⭐️`
+            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\t\t\tStay together and you'll find a way (Maybe) 😜`
         } else if (percentage < 90) {
-            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tAmazing! You two will be a good couple 💖 `
+            sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tAmazing! Congratulations you guys will have 11 kids for sure! 💙 💖 `
         } else {
             sentence = `\t\t\t\t\t*ShipCent : ${percentage}%* \n\tYou two are fated to be together 💙`
         }
@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
         })
         // choose a random gif from the array
         const gifLink = ship[Math.floor(Math.random() * ship.length)].gifLink
-        let caption = `\t❣️ *Matchmaking...* ❣️ \n`
+        let caption = `\t❣️ *HMMMMMMMM...* ❣️ \n`
         caption += `\t\t---------------------------------\n`
         caption += `@${user1.split('@')[0]}  x  @${user2.split('@')[0]}\n`
         caption += `\t\t---------------------------------\n`
