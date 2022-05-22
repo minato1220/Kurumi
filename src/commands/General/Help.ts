@@ -45,7 +45,7 @@ export default class Command extends BaseCommand {
             let text = `
 ╭─────────────┈味方
 │🍁 𝕌𝕤𝕖𝕣: *${M.sender.username}*
-│🌟 𝔹𝕠𝕥-ℕ𝕒𝕞𝕖: DeXxY
+│🌟 𝔹𝕠𝕥-ℕ𝕒𝕞𝕖: KuRuMi
 │⚡ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │🧧 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
 │🧨 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://discord.gg/yhpscaGu
