@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
             const n = [
-            'https://telegra.ph/file/404a5c38b71e8fd4cfd56.mp4'
+            'https://c.tenor.com/xtUvNrfMOScAAAPo/kurumi-tokisaki-anime.mp4'
         ]
         let chitoge = n[Math.floor(Math.random() * n.length)]
 	if (!parsedArgs.joined) {
@@ -48,7 +48,7 @@ export default class Command extends BaseCommand {
 │🌟 𝔹𝕠𝕥-ℕ𝕒𝕞𝕖: DeXxY
 │⚡ ℙ𝕣𝕖𝕗𝕚𝕩: ${this.client.config.prefix}
 │🧧 𝕆𝕨𝕟𝕖𝕣: *${this.client.config.prefix}mod*
-│🧨 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: http://gg.gg/dexxy-and-allygator-support
+│🧨 𝕆𝕗𝕗𝕚𝕔𝕚𝕒𝕝 𝔾𝕣𝕠𝕦𝕡: https://discord.gg/yhpscaGu
 ╰────────────┈味方                           \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
@@ -60,12 +60,12 @@ export default class Command extends BaseCommand {
             return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.video, {quoted:M.WAMessage,
             mimetype: Mimetype.gif,
             caption: `${text} 
-──❅┈[ 𝗔𝗹𝗹𝗬𝗴𝗔𝘁𝗢𝗿 ]┈❅───
+──❅┈[ 𝐤𝐮𝐫𝐮𝐦𝐢 ]┈❅───
 ┌────────────┈❅
-│  アリーゲーター
-│ © BY ALLYGATOR
+│  G𝓮𝓷𝓲𝓾𝓼❥-✿ Ꮇ Ｉ N Ꭺ Ꭲ Ｏ ✿
+│ © 𝖇𝖞 𝖒𝖎𝖓𝖆𝖙𝖔 𝖛𝖎 𝖇𝖗𝖎𝖙𝖆𝖓𝖓𝖎𝖆
 └────────────┈⁂
-🎐 Great Hours Ahead 🎐
+🎐 Have a good day (biscuit) 🎐
 🎊 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
