@@ -34,30 +34,30 @@ export default class Command extends BaseCommand {
 		} catch (err) {
 			M.reply(`Profile Picture not Accessible of ${username}`);
 			pfp =
-				"https://cdn.donmai.us/original/ab/5e/ab5e2ec951546e5df432c9233ef9ab8a.jpg";
+				"https://cdn.akamai.steamstatic.com/steam/apps/1944240/capsule_616x353.jpg?t=1649862260";
 		}
 		const exp = (await this.client.getUser(user)).Xp;
 		let role: string;
 		if (exp < 500) {
-			role = "🌸 Citizen";
+			role = "😢 Ultra noob";
 		} else if (exp < 1000) {
-			role = "🔎 Cleric";
+			role = "😞 Kinda Noob";
 		} else if (exp < 2000) {
-			role = "🔮 Wizard";
+			role = "😟 Noob";
 		} else if (exp < 5000) {
-			role = "♦️ Mage";
+			role = "🙂 Kinda Pro";
 		} else if (exp < 10000) {
-			role = "🎯 Noble";
+			role = "😀 Hmmm Pro";
 		} else if (exp < 25000) {
-			role = "✨ Elite";
+			role = "😁 Pro";
 		} else if (exp < 50000) {
-			role = "🔶️ Ace";
+			role = "😊 LEEGAAND";
 		} else if (exp < 75000) {
 			role = "🌀 Hero";
 		} else if (exp < 100000) {
-			role = "💎 Supreme";
+			role = "💎 Supreme Leader";
 		} else {
-			role = "❄️ Mystic";
+			role = "👑 GOD";
 		}
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		let level: number;
